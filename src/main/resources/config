@@ -1,0 +1,2 @@
+hdfs.dfs.host=master
+hdfs.dfs.port=9000
