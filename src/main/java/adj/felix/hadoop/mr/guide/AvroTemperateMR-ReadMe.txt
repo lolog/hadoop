@@ -1,0 +1,1 @@
+java -jar tools/avro/avro-tools-1.7.4.jar tojson part-00000.avro

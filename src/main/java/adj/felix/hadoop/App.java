@@ -1,13 +1,14 @@
 package adj.felix.hadoop;
 
-/**
- * Hello world!
- *
- */
+import java.util.Calendar;
+import java.util.Date;
+
 public class App 
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+    	Calendar calendar=Calendar.getInstance();
+    	calendar.setTime(new Date());
+    	System.out.println(calendar.get(Calendar.MONTH));
     }
 }

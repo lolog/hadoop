@@ -1,0 +1,11 @@
+{
+  "namespace" : "adj.felix.hadoop.pojo",
+  "type":"record",
+  "name":"Weather",
+  "fields":[
+    {"name":"year","type":"int"},
+    {"name":"month","type":"int"},
+    {"name":"day","type":"int"},
+    {"name":"temperature","type": "int"}
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "namespace" : "adj.felix.hadoop.pojo",
+  "type":"record",
+  "name":"Data",
+  "fields":[
+    {"name":"name","type":"string"},
+    {"name":"age","type": ["int", "null"]},
+    {"name":"info","type": ["string", "null"]}
+  ]
+}
